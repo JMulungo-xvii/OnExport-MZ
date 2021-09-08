@@ -452,7 +452,7 @@
 
 .ts-facts .ts-facts-content .ts-facts-num {
   color: #fff;
-  font-size: 20px;
+  font-size: 44px;
   margin: 30px 0 20px;
 }
 
@@ -961,6 +961,10 @@
 .clients-logo img {
   filter: grayscale(100%);
   filter: gray;
+}
+.clients-logo img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
 
 /* Testimonial
